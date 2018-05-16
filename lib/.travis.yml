@@ -2,6 +2,7 @@
   node_js:
     - 'stable'
   sudo: required
+  os: osx
   before_script: npm i
   script:
     - npm test
