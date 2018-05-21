@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - 'stable'
-before_script: npm i
+before_script: npm install -S eslint
 script:
   - npm run lint
   - npm test
