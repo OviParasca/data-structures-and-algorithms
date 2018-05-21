@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1526862811873" clover="3.2.0">
-  <project timestamp="1526862811873" name="All files">
+<coverage generated="1526865080057" clover="3.2.0">
+  <project timestamp="1526865080057" name="All files">
     <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="25" coveredelements="25" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1">
       <file name="array_shift.js" path="/Users/oviparasca/data-structures-and-algorithms/whiteboard-challenge-02/lib/array_shift.js">
         <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
