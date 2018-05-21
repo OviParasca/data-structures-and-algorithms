@@ -3,4 +3,5 @@ node_js:
   - 'stable'
 before_script: npm i
 script:
+  - npm run lint
   - npm test
