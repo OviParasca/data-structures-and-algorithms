@@ -31,9 +31,7 @@ describe('ArrayShift', () => {
 
     // The following tests are for removing the middle element from an array
     it('check the array for the valid length after removing the middle element', () => {
-        let newLength = loadRemoveFromArray().length;
-        console.log(`new length: ${newLength}`);
-        expect(newLength).toEqual(4);
+        expect(loadRemoveFromArray().length).toEqual(4);
     });
 
     it('check if all the elements in the array are numbers', () => {
@@ -42,8 +40,12 @@ describe('ArrayShift', () => {
         });
     });
 
-    // it('check if the middle element is removed', () => {
-    //     const centerPoint = Math.floor([2, 4, 6, 8].length/2);
-    // });
+    it('check if the middle element is removed', () => {
+        var myArray = [1, 2, 8, 4, 5];
+        const centerPoint = Math.floor(myArray.length/2);
+        const middleElement = myArray[centerPoint];
+        myArray = testArray.removeShiftArray(myArray);
+        expect(myArray[centerPoint]).not.toEqual(middleElement);
+    });
 
 });
