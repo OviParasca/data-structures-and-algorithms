@@ -9,7 +9,6 @@
   "scripts": {
     "test": "jest ./whiteboard-challenge-02/__test__/lib/array_shift.test.js --verbose --coverage",
     "lint": "eslint.js"
-    }
   },
   "repository": {
     "type": "git",
