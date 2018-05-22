@@ -3,7 +3,7 @@
 class ArrayShift {
     
 insertShiftArray(array, value) {
-    const centerPoint = Math.ceil(array.length/2);
+    const centerPoint = -(~~~(array.length/2));
     const newArray = [];
     let index = 0;
 
@@ -21,7 +21,7 @@ insertShiftArray(array, value) {
   }
 
   removeShiftArray(array) {
-    const centerPoint = Math.floor(array.length/2);
+    const centerPoint = -(~~~(array.length/2));
     const newArray = [];
     let index = 0;
 

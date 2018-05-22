@@ -25,7 +25,7 @@ describe('ArrayShift', () => {
     });
 
     it('check if the new value is in the center', () => {
-        const centerPoint = Math.ceil([2, 4, 6, 8].length/2);
+        const centerPoint = -(~~~(loadArray().length/2));
         expect(loadArray()[centerPoint]).toEqual(5);
     });
 
@@ -42,7 +42,7 @@ describe('ArrayShift', () => {
 
     it('check if the middle element is removed', () => {
         var myArray = [1, 2, 8, 4, 5];
-        const centerPoint = Math.floor(myArray.length/2);
+        const centerPoint = -(~~~(myArray.length/2));
         const middleElement = myArray[centerPoint];
         myArray = testArray.removeShiftArray(myArray);
         expect(myArray[centerPoint]).not.toEqual(middleElement);
