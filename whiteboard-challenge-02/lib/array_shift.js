@@ -3,9 +3,13 @@
 class ArrayShift {
     
 insertShiftArray(array, value) {
-    const centerPoint = Math.ceil(array.length/2);
+    var centerPoint = -(~~~(array.length/2));
     const newArray = [];
     let index = 0;
+
+    if (this.isWholeNum(array.length/2)) {
+      centerPoint = ~~(array.length/2);
+    }
 
     for (var i = 0; i < array.length; i++) {
       if (i === centerPoint) {
@@ -21,7 +25,7 @@ insertShiftArray(array, value) {
   }
 
   removeShiftArray(array) {
-    const centerPoint = Math.floor(array.length/2);
+    const centerPoint = ~~(array.length/2);
     const newArray = [];
     let index = 0;
 
@@ -33,6 +37,10 @@ insertShiftArray(array, value) {
     }
     return newArray;
   }
+
+  isWholeNum(n) {
+    return n % 1 === 0;
+ }
 
 }
 
