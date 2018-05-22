@@ -1,8 +1,7 @@
 'use strict';
 
-const ReverseArray = require('./lib/reverse_array.js');
+const ArrayReverse = require('./lib/array_reverse.js');
 
-let myArray = new ReverseArray();
+let myArray = new ArrayReverse();
 
-console.log(myArray.reverseArray([1, 2, 3, 4, 5, 6]));    // 1st way to reverse an array
-console.log(myArray.reverseArrayAlt([1, 2, 3, 4, 5, 6])); // 2nd way to reverse an array
+console.log(myArray.reverseArray([1, 2, 3, 4, 5, 6]));
