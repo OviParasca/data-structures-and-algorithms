@@ -8,4 +8,4 @@
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard image](assets/reverse-array.jpg)
+![whiteboard image](assets/array_reverse.JPG)
