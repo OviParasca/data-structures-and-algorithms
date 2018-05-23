@@ -92,25 +92,31 @@ class LinkedList {
 
   // find the Kth node from the end of the Linked List
   findKthNodeFromEnd(k) {
-    var tempLL = this;
-    var index = tempLL.length-1;
-    var current = tempLL.head;
-    var previous = null;
+    var llLength = 0;
+    var currentNode = this.head;
 
-    if (k === tempLL.length-1) {
-      return current; // Big O of O(1)
-    } else {
-      while (current) { // Big O of O(n)
-        if (k === index) {
-            return current;
-        }
-        var next = current.next;
-        current.next = previous;
-        previous = current;
-        current = next;
-        index--;
-      }
+    // get the length of the linked list
+    // Big O = O(n) where n is the length of the linked list
+    while (currentNode) {
+      currentNode = currentNode.next;
+      llLength++;
     }
+
+    // if the k is a larger number than the length, return null
+    // Big O = O(1)
+    if (llLength < k) {
+      return null;
+    }
+
+    // traverse through the linked list
+    // Big O = O(n) where n is the length of the linked list
+    currentNode = this.head;
+    for (var i = 0; i < llLength-k-1; i++) {
+        if (currentNode.next) {
+          currentNode = currentNode.next;
+        }
+    }
+    return currentNode;
   }
 
   // find the middle node in a Linked List
