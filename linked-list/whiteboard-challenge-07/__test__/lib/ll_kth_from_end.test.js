@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../../lib/ll_kth_from_end.js');
+const LinkedList = require('../../../lib/linkedList.js');
 
 describe('ll_kth_from_end Tests', () => {
 
