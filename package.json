@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest ./whiteboard-challenge-02/__test__/lib/array_shift.test.js --verbose --coverage jest ./whiteboard-challenge-03/__test__/lib/array_binary_search.test.js --verbose --coverage ./linked-list/whiteboard-challenge-07/__test__/lib/ll_kth_from_end.test.js --verbose --coverage",
+    "test": "jest ./whiteboard-challenge-02/__test__/lib/array_shift.test.js --verbose --coverage jest ./whiteboard-challenge-03/__test__/lib/array_binary_search.test.js --verbose --coverage ./linked-list/whiteboard-challenge-07/__test__/lib/ll_kth_from_end.test.js --verbose --coverage ./linked-list/whiteboard-challenge-08/__tests__/lib/ll_merge.test.js --verbose --coverage",
     "lint": "eslint **/*.js"
   },
   "author": "Ovi Parasca",
