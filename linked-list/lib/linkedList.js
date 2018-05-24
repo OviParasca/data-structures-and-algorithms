@@ -136,7 +136,19 @@ class LinkedList {
     }
   }
 
+  mergeLists(ll1, ll2) {
+    var currentNode1 = ll1.head;
+    var currentNode2 = ll2.head;
 
+    while(currentNode1 || currentNode2) {
+      this.append(currentNode1.value);
+      currentNode1 = currentNode1.next;
+
+      this.append(currentNode2.value);
+      currentNode2 = currentNode2.next;
+    }
+    return this;
+  }
 
   serialize() {
     var serialized = JSON.stringify(this);
