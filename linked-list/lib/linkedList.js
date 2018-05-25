@@ -112,9 +112,9 @@ class LinkedList {
     // Big O = O(n) where n is the length of the linked list
     currentNode = this.head;
     for (var i = 0; i < llLength-k-1; i++) {
-        if (currentNode.next) {
-          currentNode = currentNode.next;
-        }
+      if (currentNode.next) {
+        currentNode = currentNode.next;
+      }
     }
     return currentNode;
   }
@@ -128,7 +128,7 @@ class LinkedList {
     for (var i = 0; i < tempLL.length; i++) {
       if (i === middlePoint) {
         return currentNode;
-        break;
+        break; //eslint-disable-line
       }
       if (currentNode.next) {
         currentNode = currentNode.next;
@@ -149,6 +149,28 @@ class LinkedList {
     }
     return this;
   }
+
+  detectLoop() {
+    var p1 = this.head;
+    var p2 = this.head;
+    var isLoop = false; //eslint-disable-line
+
+    while (p2.next) {
+      p1 = p1.next;
+      p2 = p2.next.next;
+
+      if (p2 === p1) {
+        isLoop = true;
+        break;  // don't forget to break out the Loop!
+      }
+    }
+
+    return isLoop;
+  }
+
+
+
+  // Serialize & Desirialize
 
   serialize() {
     var serialized = JSON.stringify(this);
