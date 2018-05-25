@@ -9,4 +9,4 @@ Create a new project that takes in an array and inserts a number at the middle i
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard image](assets/.jpeg)
+![whiteboard image](assets/array_shift.jpeg)
