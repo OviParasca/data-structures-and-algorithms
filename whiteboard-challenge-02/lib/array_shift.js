@@ -2,7 +2,7 @@
 
 class ArrayShift {
     
-insertShiftArray(array, value) {
+  insertShiftArray(array, value) {
     var centerPoint = -(~~~(array.length/2));
     const newArray = [];
     let index = 0;
@@ -13,8 +13,8 @@ insertShiftArray(array, value) {
 
     for (var i = 0; i < array.length; i++) {
       if (i === centerPoint) {
-       newArray[index] = value;
-       index++;
+        newArray[index] = value;
+        index++;
       } 
     
       newArray[index] = array[i];
@@ -40,7 +40,7 @@ insertShiftArray(array, value) {
 
   isWholeNum(n) {
     return n % 1 === 0;
- }
+  }
 
 }
 
