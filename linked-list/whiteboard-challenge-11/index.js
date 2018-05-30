@@ -1,6 +1,6 @@
 'use strict';
 
-const Queue = require('./queue_with_stacks.js');
+const Queue = require('./lib/queue_with_stacks.js');
 
 // let myQueue = new Queue();
 
@@ -27,6 +27,7 @@ myStack.push(8);
 
 console.log(myStack);
 
+
 myStack.pop();
 var currentNode = myStack.head;
 for (var i = 0; i < myStack.length; i++) {
@@ -36,4 +37,3 @@ for (var i = 0; i < myStack.length; i++) {
 
 console.log(myStack);
 
-console.log(myStack.head.next.next.next.value);

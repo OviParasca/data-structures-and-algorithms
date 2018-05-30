@@ -1,6 +1,7 @@
 'use strict';
 
-const LinkedList = require('../lib/linkedList.js');
+const LinkedList = require('../../linked-list/lib/linkedList.js');
+
 
 class Stack extends LinkedList {
 
@@ -13,19 +14,16 @@ class Stack extends LinkedList {
       return null;
     }
 
-    var currentNode = this.head;
-    let prevNode = currentNode;
+    var current = this.head;
+    var previous = this.head;
 
-    while(currentNode) {
-      if (currentNode.next) {
-        currentNode = currentNode.next;
-      } else {
-        prevNode = currentNode;
-        currentNode = undefined;
-        this.length--;
-      }
+    while (current.next) {
+        previous = current;
+        current = current.next;
     }
-    return prevNode;
+    
+    this.length--;
+    return previous;
   }
 
 }

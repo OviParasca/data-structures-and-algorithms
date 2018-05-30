@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../../lib/linkedList.js');
+const LinkedList = require('../../../linked-list/lib/linkedList.js');
 
 class Queue extends LinkedList {
 
