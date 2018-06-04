@@ -1,9 +1,9 @@
 'use strict';
 
-const LinkedList = require('../../linked-list/lib/linkedList.js');
+const Node = require('../linked-list/lib/node.js');
 
 
-class Stack extends LinkedList {
+class Stack {
 
   push(value) {
     this.append(value)

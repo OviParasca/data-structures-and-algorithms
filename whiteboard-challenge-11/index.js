@@ -1,6 +1,7 @@
 'use strict';
 
 const Queue = require('./lib/queue_with_stacks.js');
+const Stack = require('./lib/stack.js');
 
 // let myQueue = new Queue();
 
@@ -16,7 +17,6 @@ const Queue = require('./lib/queue_with_stacks.js');
 // console.log(myQueue);
 
 
-const Stack = require('./stack.js');
 
 let myStack = new Stack();
 
