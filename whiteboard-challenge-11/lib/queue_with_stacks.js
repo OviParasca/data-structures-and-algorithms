@@ -1,11 +1,12 @@
 'use strict';
 
-const LinkedList = require('../../../linked-list/lib/linkedList.js');
+const Node = require('../../linked-list/lib/node.js');
+const Stack = require('./stack.js');
 
-class Queue extends LinkedList {
-
+class Queue extends Stack {
+  
   enqueue(value) {
-    this.append(value)
+    this.push(value);
   }
 
   dequeue() {
@@ -19,6 +20,16 @@ class Queue extends LinkedList {
 
     return oldHead;
   }
+
+  serialize() {
+    return JSON.stringify(this);
+  }
+
+  deserialize(obj) {
+    return JSON.parse(obj);
+  }
+
 }
 
 module.exports = Queue;
+
