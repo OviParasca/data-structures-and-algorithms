@@ -26,9 +26,6 @@ six.right = seven;
 seven.left = eight;
 seven.right = nine;
 
-
-// console.log(tree);
-// console.log(tree.preOrder());
 let fizzBuzzTree = new FizzBuzzTree();
 fizzBuzzTree.fizzbuzztree(tree);
 console.log(tree);
