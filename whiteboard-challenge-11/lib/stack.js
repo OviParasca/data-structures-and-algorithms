@@ -44,7 +44,8 @@ class Stack {
       previous = current;
       current = current.next;
     }
-    
+    // previous.next = null;
+
     this.length--;
     return previous;
   }
