@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <coverage generated="1528318194511" clover="3.2.0">
   <project timestamp="1528318194511" name="All files">
     <metrics statements="208" coveredstatements="139" conditionals="71" coveredconditionals="49" methods="31" coveredmethods="20" elements="310" coveredelements="208" complexity="0" loc="208" ncloc="208" packages="5" files="8" classes="8">
+=======
+<coverage generated="1528301888310" clover="3.2.0">
+  <project timestamp="1528301888310" name="All files">
+    <metrics statements="205" coveredstatements="140" conditionals="52" coveredconditionals="36" methods="26" coveredmethods="18" elements="283" coveredelements="194" complexity="0" loc="205" ncloc="205" packages="5" files="7" classes="7">
+>>>>>>> master
       <package name="linked-list.lib">
         <metrics statements="113" coveredstatements="61" conditionals="20" coveredconditionals="11" methods="15" coveredmethods="8"/>
         <file name="linkedList.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/linked-list/lib/linkedList.js">
@@ -119,9 +125,9 @@
         </file>
         <file name="node.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/linked-list/lib/node.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="5" count="23" type="stmt"/>
-          <line num="6" count="23" type="stmt"/>
-          <line num="10" count="3" type="stmt"/>
+          <line num="5" count="27" type="stmt"/>
+          <line num="6" count="27" type="stmt"/>
+          <line num="10" count="4" type="stmt"/>
         </file>
       </package>
       <package name="whiteboard-challenge-02.lib">
@@ -201,6 +207,7 @@
           <line num="44" count="1" type="stmt"/>
         </file>
       </package>
+<<<<<<< HEAD
       <package name="whiteboard-challenge-16.lib">
         <metrics statements="36" coveredstatements="22" conditionals="25" coveredconditionals="16" methods="10" coveredmethods="6"/>
         <file name="BinaryTree.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-16/lib/BinaryTree.js">
@@ -247,6 +254,48 @@
           <line num="14" count="1" type="stmt"/>
           <line num="16" count="1" type="stmt"/>
           <line num="21" count="1" type="stmt"/>
+=======
+      <package name="whiteboard-challenge-11.lib">
+        <metrics statements="33" coveredstatements="23" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="4"/>
+        <file name="queue_with_stacks.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-11/lib/queue_with_stacks.js">
+          <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="8" count="4" type="stmt"/>
+          <line num="13" count="4" type="cond" truecount="1" falsecount="1"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
+          <line num="17" count="4" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="19" count="4" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+        </file>
+        <file name="stack.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-11/lib/stack.js">
+          <metrics statements="24" coveredstatements="15" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="13" count="4" type="stmt"/>
+          <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="25" count="3" type="stmt"/>
+          <line num="26" count="3" type="stmt"/>
+          <line num="29" count="3" type="stmt"/>
+          <line num="30" count="3" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+>>>>>>> master
         </file>
       </package>
     </metrics>
