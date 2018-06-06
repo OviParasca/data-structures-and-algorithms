@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest ./whiteboard-challenge-02/__test__/lib/array_shift.test.js --verbose --coverage jest ./whiteboard-challenge-03/__test__/lib/array_binary_search.test.js --verbose --coverage jest ./whiteboard-challenge-04/__test__/lib/array_adjacent_product.test.js --verbose --coverage ./linked-list/whiteboard-challenge-07/__test__/lib/ll_kth_from_end.test.js --verbose --coverage jest ./linked-list/whiteboard-challenge-08/__test__/lib/ll_merge.test.js --verbose --coverage jest ./linked-list/whiteboard-challenge-09/__test__/lib/ll_detect_loop.test.js --verbose --coverage",
+    "test": "jest ./whiteboard-challenge-02/__test__/lib/array_shift.test.js --verbose --coverage jest ./whiteboard-challenge-03/__test__/lib/array_binary_search.test.js --verbose --coverage jest ./whiteboard-challenge-04/__test__/lib/array_adjacent_product.test.js --verbose --coverage ./linked-list/whiteboard-challenge-07/__test__/lib/ll_kth_from_end.test.js --verbose --coverage jest ./linked-list/whiteboard-challenge-08/__test__/lib/ll_merge.test.js --verbose --coverage jest ./linked-list/whiteboard-challenge-09/__test__/lib/ll_detect_loop.test.js --verbose --coverage jest ./whiteboard-challenge-16/__test__/lib/fizzbuzztree.test.js --verbose --coverage",
     "lint": "eslint **/*.js"
   },
   "author": "Ovi Parasca",

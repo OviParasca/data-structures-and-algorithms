@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1527830960227" clover="3.2.0">
-  <project timestamp="1527830960228" name="All files">
-    <metrics statements="172" coveredstatements="117" conditionals="46" coveredconditionals="33" methods="21" coveredmethods="14" elements="239" coveredelements="164" complexity="0" loc="172" ncloc="172" packages="4" files="5" classes="5">
+<coverage generated="1528318194511" clover="3.2.0">
+  <project timestamp="1528318194511" name="All files">
+    <metrics statements="208" coveredstatements="139" conditionals="71" coveredconditionals="49" methods="31" coveredmethods="20" elements="310" coveredelements="208" complexity="0" loc="208" ncloc="208" packages="5" files="8" classes="8">
       <package name="linked-list.lib">
         <metrics statements="113" coveredstatements="61" conditionals="20" coveredconditionals="11" methods="15" coveredmethods="8"/>
         <file name="linkedList.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/linked-list/lib/linkedList.js">
@@ -199,6 +199,54 @@
           <line num="33" count="12" type="stmt"/>
           <line num="39" count="1" type="stmt"/>
           <line num="44" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="whiteboard-challenge-16.lib">
+        <metrics statements="36" coveredstatements="22" conditionals="25" coveredconditionals="16" methods="10" coveredmethods="6"/>
+        <file name="BinaryTree.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-16/lib/BinaryTree.js">
+          <metrics statements="23" coveredstatements="9" conditionals="13" coveredconditionals="4" methods="7" coveredmethods="3"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+        </file>
+        <file name="Node.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-16/lib/Node.js">
+          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+        <file name="fizzbuzztree.js" path="/Users/ovidiuparasca/data-structures-and-algorithms/whiteboard-challenge-16/lib/fizzbuzztree.js">
+          <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="9" type="cond" truecount="6" falsecount="0"/>
+          <line num="11" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="12" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>
