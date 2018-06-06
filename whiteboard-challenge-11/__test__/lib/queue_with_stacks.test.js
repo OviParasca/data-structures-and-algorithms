@@ -30,14 +30,16 @@ describe('Test the Queue with Stacks code', () => {
     }
   });
 
+  it('Check the head value', () => {
+    expect(myQueue.head.value).toBe(1);
+  });
 
 
   // Dequeue tests
   it('Dequeue() the head and test the new head', () => {
     myQueue.dequeue();
 
-    console.log(myQueue.head);
-    expect(myQueue.head.value).toBe(51);
+    expect(myQueue.head.value).toBe(2);
   });
 
   it('Dequeue() all the values to test going beyond 0 length', () => {
@@ -46,18 +48,11 @@ describe('Test the Queue with Stacks code', () => {
     myQueue.dequeue();
 
     expect(myQueue.length).toBe(0);
-    expect(myQueue.head).toBe(null);
   });
 
-
-  // it('', () => {
-
-  // });
-
-  // it('', () => {
-
-  // });
-
+  it('Check the head value after removing all the nodes', () => {
+    expect(myQueue.head).toBe(null);
+  });
 
 });
 

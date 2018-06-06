@@ -13,12 +13,6 @@ console.log(myQueue);
 myQueue.dequeue();
 myQueue.dequeue();
 myQueue.dequeue();
-// myQueue.dequeue();
+myQueue.dequeue();
 console.log(myQueue.head);
-// console.log('\n');
 
-// let currentNode = myQueue.head;
-// for (var i = 0; i < myQueue.length; i++) {
-//   console.log(currentNode);
-//   currentNode = currentNode.next;
-// }
