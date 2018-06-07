@@ -2,9 +2,15 @@
 
 import mbv from 'multi-bracket-validation.js';
 
-describe('', () => {
+describe('Tests for the Multi-Bracket Validation', () => {
 
-  it('', () => {
+  it ('', () => {
+  });
+
+  it ('', () => {
+  });
+
+  it ('', () => {
   });
 
 });
