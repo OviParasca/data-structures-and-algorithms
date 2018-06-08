@@ -1,5 +1,7 @@
 'use strict';
-
+//
+// This code is from the lab
+//
 class BinaryTree {
 
   constructor(root = null) {
