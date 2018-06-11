@@ -35,7 +35,7 @@ describe('', () => {
   });
 
   it('testing the Linked List length after inserting 2 new nodes', () => {
-    expect(ll.length).toBe(4);
+    expect(ll.length).toBe(3);
   });
 
 
@@ -51,7 +51,7 @@ describe('', () => {
   });
 
   it('test for the new/final length of the Linked List', () => {
-    expect(ll.length).toBe(6);
+    expect(ll.length).toBe(3);
   });
 
 
