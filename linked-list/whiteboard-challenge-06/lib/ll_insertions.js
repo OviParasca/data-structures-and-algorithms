@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../lib/linkedList.js');
+const LinkedList = require('../../lib/linkedList.js');
 
 let ll = new LinkedList();
 
@@ -14,13 +14,17 @@ let ll = new LinkedList();
 // ll.append(2);
 
 // console.log(ll);
-// ll.insertBefore(3, 5);
+// ll.insertBefore(3, 6);
+
 // let currentNode = ll.head;
 // for (var i = 0; i < ll.length; i++) {
 //   console.log(currentNode.value);
-//   currentNode = currentNode.next;
+//   if (currentNode.next) {
+//      currentNode = currentNode.next;
+//   }
 // }
 
+// console.log(ll.head.value);
 // ll.removeAllNodes();
 // console.log(ll.removeAllNodes.head);
 
@@ -34,7 +38,7 @@ let ll = new LinkedList();
 // ll.append(3);
 // ll.append(2);
 // console.log(ll);
-// ll.insertAfter(3, 5);
+// ll.insertAfter(2, 5);
 
 // let currentNode2 = ll.head;
 // for (var i = 0; i < ll.length; i++) {

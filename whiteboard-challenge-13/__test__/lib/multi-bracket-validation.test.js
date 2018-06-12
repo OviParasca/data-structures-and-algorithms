@@ -4,13 +4,7 @@ const mbv = require('../../lib/multi-bracket-validation.js');
 
 describe('Tests for the Multi-Bracket Validation', () => {
 
-  it ('', () => {
-  });
-
-  it ('', () => {
-  });
-
-  it ('', () => {
+  it ('Testing for multi-bracket validation', () => {
   });
 
 });

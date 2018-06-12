@@ -1,7 +1,7 @@
 'use strict';
 
-const BinaryTree = require('./lib/BinaryTree.js');
-const Node = require('./lib/Node.js');
+const BinaryTree = require('../binary-tree/lib/BinaryTree.js');
+const Node = require('../binary-tree/lib/Node.js');
 const FizzBuzzTree = require('./lib/fizzbuzztree.js');
 
 // create a new Binary Tree

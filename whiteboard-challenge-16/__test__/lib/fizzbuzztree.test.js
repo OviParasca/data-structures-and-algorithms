@@ -1,7 +1,7 @@
 'use strict';
 
-const BinaryTree = require('../../lib/BinaryTree.js');
-const Node = require('../../lib/Node.js');
+const BinaryTree = require('../../../binary-tree/lib/BinaryTree.js');
+const Node = require('../../../binary-tree/lib/Node.js');
 const FizzBuzzTree = require('../../lib/fizzbuzztree.js');
 
 
@@ -51,5 +51,24 @@ describe('Tests for the Fizz Buzz Tree', () => {
     expect(six.right.value).toBe('fizzbuzz');
     expect(two.left.value).toBe(13);
   });
+
+  it('Test the InOrder() ', () => {
+    let results = tree.inOrder();
+    for (var i = 0; i < results.length; i++) {
+      if (results[i] % 15 === 0 || results[i] % 5 === 0 || results[i] % 3 === 0) {
+        expect().toThrow('a node returned the number instead the expected fizz/buzz/fizzbuzz');
+      }
+    }
+  });
+
+  it('Test the PostOrder() ', () => {
+    let results = tree.postOrder();
+    for (var i = 0; i < results.length; i++) {
+      if (results[i] % 15 === 0 || results[i] % 5 === 0 || results[i] % 3 === 0) {
+        expect().toThrow('a node returned the number instead the expected fizz/buzz/fizzbuzz');
+      }
+    }
+  });
+
 
 });

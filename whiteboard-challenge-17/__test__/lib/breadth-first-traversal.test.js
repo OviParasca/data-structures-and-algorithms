@@ -2,7 +2,6 @@
 
 const BinaryTree = require('../../../binary-tree/lib/BinaryTree.js');
 const Node = require('../../../binary-tree/lib/Node.js');
-const BreadthFirstTree = require('../../lib/breadth-first-traversal.js');
 
 describe('Tests for the Breadth First Traversal', () => {
 

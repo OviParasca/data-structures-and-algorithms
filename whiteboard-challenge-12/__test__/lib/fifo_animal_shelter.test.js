@@ -22,8 +22,6 @@ describe('Tests for the FIFO Animal Shelter project', () => {
     expect(myQueue.cat.length).toBe(0);
   });
 
-
-
   it('Test the length of the dog array', () => {
     loadAnimalShelter();
     expect(myQueue.dog.length).toBe(3);
