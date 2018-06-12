@@ -1,4 +1,6 @@
 # 
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 Create a new project that takes in an array and inserts a number at the middle index. Add 3 different unit tests to confirm your code works. 
 

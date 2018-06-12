@@ -1,4 +1,6 @@
 # Largest product of 2 adjacent values in a 2D array
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 * This assignment was hard to rotate through the 2d array. I worked with Timea and Jason on the whiteboard. We did some paired programming to figure out the solution, after prototying the solution using hardcoded values, i rewrote the solution using a few for loops. The Big-O for my solution is O(n3);
 

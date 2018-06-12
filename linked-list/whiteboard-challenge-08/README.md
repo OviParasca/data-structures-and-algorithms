@@ -1,4 +1,6 @@
 # Merge two Linked Lists
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 * The whiteboard was in collaboration with Jenn, Jason and Timea. The Whiteboard was solid and made the actual coding very easy. The only hurdle i had was joining the node itself instead of the values, which caused me to debug for about 20 minutes, but once i figured it out i felt relieved it was a tiny error on my part. I'm really starting to dig linked lists and i was scared to learn them all these years.
 

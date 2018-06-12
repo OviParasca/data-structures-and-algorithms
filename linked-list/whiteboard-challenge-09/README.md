@@ -1,4 +1,6 @@
 # Identify a Circular Reference
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 * The whiteboard was in collaboration with Jenn, Jason and Timea. This whiteboard challenge definately made me think hard for the solution but ultimately the solution seemed simpler than i was making it out to be. We wrote a function that had a while-loop that checked the current node and the next node and if they ever matched then we found a loop. Otherwise, if we reach a node without a next node, then we have found a non-loop linked list.
 

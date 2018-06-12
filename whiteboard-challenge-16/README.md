@@ -1,4 +1,5 @@
 # FizzBuzz Tree
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
 
 ## Challenge
 <!-- Description of the challenge -->

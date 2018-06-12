@@ -1,4 +1,6 @@
 # Implement a Queue using two Stacks.
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 In this challenge we are implementing a Queue and have access to push/pop from a stack. The most challenging part of this whiteboard was using a stack for the Queue, the Pop was diffifult due to breaking my tests but working in normal code. 
 

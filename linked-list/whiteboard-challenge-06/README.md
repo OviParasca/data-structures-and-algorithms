@@ -1,4 +1,6 @@
 # Linked List Insertions
+[![Build Status](https://travis-ci.com/OviParasca/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/OviParasca/data-structures-and-algorithms)
+
 <!-- Short summary or background information -->
 ### Write the following methods for the Linked List class:
 
