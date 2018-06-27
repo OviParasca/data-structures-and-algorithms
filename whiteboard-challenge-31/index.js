@@ -14,6 +14,11 @@ let index = 0;
 while (dup.length < 1) {
   myHashTable[Hash.hashCode(words[index])] ? dup = words[index] : (myHashTable[Hash.hashCode(words[index])] = words[index]);
   index++;
+
+  // base case (break out if we reach the end and no dups were found)
+  if (index === words.length) {
+    break;
+  }
 }
 
 console.log(dup);
