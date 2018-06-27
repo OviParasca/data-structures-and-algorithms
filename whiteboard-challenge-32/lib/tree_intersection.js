@@ -1,6 +1,5 @@
 'use strict';
 
-
 class BreadthFirstTraversal {
 
   breadthFirstTraversal(tree) {
