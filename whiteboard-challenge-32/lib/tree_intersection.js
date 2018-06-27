@@ -1,32 +1,52 @@
 'use strict';
 
-export default function breadthFirstTraversal(tree) {
+class BreadthFirstTraversal {
 
-  let rootNode = [];
-  rootNode.push(tree.root);
-  let output = [];
+  breadthFirstTraversal(tree) {
+    let rootNode = [];
+    rootNode.push(tree.root);
+    let output = [];
 
-  function _walk(arr) {
+
+    return this.walk(rootNode, output);
+  }
+
+  // helper functions
+  walk(arr, outputArr) {
     let newNodes = [];
+
     for (var i = 0; i < arr.length; i++) {
-        if (arr[i].value) {
-          console.log('new value: ', arr[i].value)
-          output.push(arr[i].value);
+        if (arr[i]) {
+          outputArr.push(arr[i].value);
           newNodes.push(arr[i].left);
           newNodes.push(arr[i].right);
         }
     }
-    if (!newNodes.every(isNull)) {
-      _walk(newNodes);
+
+    if (newNodes.every(this.isNull) === false) {
+      this.walk(newNodes, outputArr);
     }
+    return outputArr;
   }
 
-  _walk(rootNode);
-  return output;
-
-
-  // helper functions
-  function isNull(currentValue) {
+  isNull(currentValue) {
     return currentValue === null;
   }
+
+  findDups(arr1, arr2) {
+    let outputArr = [];
+
+    for (var i = 0; i < arr1.length; i++) {
+      for (var j = 0; j < arr2.length; j++) {
+        if (arr1[i] === arr2[j]) {
+          outputArr[outputArr.length] = arr1[i];
+          break;
+        }
+      }
+    }
+
+    return outputArr;
+  }
 }
+
+module.exports = BreadthFirstTraversal;
