@@ -1,11 +1,12 @@
-' use strict';
+'use strict';
 
-const BFT = require('./lib/tree_intersection.js');
-const Node = require('../binary-tree/lib/Node.js');
-const BinaryTree = require('../binary-tree/lib/BinaryTree.js');
+const BFT = require('../lib/tree_intersection.js');
+const Node = require('../../binary-tree/lib/Node.js');
+const BinaryTree = require('../../binary-tree/lib/BinaryTree.js');
 
+describe('Tests for Tree Intersection', () => {
 
-let bft = new BFT;
+  let bft = new BFT;
 
 
 // create a new Binary Tree
@@ -67,10 +68,28 @@ bt2two.right =  bt2six;
 bt2four.left = bt2seven;
 bt2four.right = bt2eight;
 
-bt2six.left = bt2nine;
+// bt2six.left = bt2nine; // uncomment for even number of total nodes, leave commented out to test uneven number of nodes
 bt2six.right = bt2ten;
 
-console.log(bft.breadthFirstTraversal(tree2));
-let arr1 = bft.breadthFirstTraversal(tree1);
-let arr2 = bft.breadthFirstTraversal(tree2);
-console.log(bft.findDups(arr1, arr2));
+
+
+  it('Test if the results match the expected array', () => {
+    let arr1 = bft.breadthFirstTraversal(tree1);
+    let arr2 = bft.breadthFirstTraversal(tree2);
+
+    expect(bft.findDups(arr1, arr2)).toEqual([100, 160, 200, 350, 125, 175, 500]);
+  });
+
+  it('Test the length of the expected output', () => {
+    let arr1 = bft.breadthFirstTraversal(tree1);
+    let arr2 = bft.breadthFirstTraversal(tree2);
+
+    expect(bft.findDups(arr1, arr2).length).toBe(7);
+  });
+
+  it('Test the output array of the trees', () => {
+    expect(bft.breadthFirstTraversal(tree1).length).toBe(11);
+    expect(bft.breadthFirstTraversal(tree2).length).toBe(10);
+  });
+
+});

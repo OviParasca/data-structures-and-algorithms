@@ -14,7 +14,7 @@
 ![BT1 image](assets/BT1.png)
 ![BT2 image](assets/BT2.png)
 
-`OUTPUT` `[100,160,125,175,200,300,350,500]`
+`OUTPUT` `[100,160,125,175,200,350,500]`
 
 
 
