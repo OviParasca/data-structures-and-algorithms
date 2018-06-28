@@ -25,3 +25,9 @@
 ![whiteboard image](assets/left_join.jpg)
 
 To run tests, install Jest and run navigating to the directory and running `npm test`
+
+
+### The unit tests are:
+* test if the synonym & antonym tables are hashed
+* test if the synonym & antonym tables values are objects
+* test to see if each value has 2 values for each key
