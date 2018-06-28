@@ -11,8 +11,8 @@ let synonyms = {
   'wrath' : 'anger',
   'diligent' : 'employed',
   'outfit' : 'garb',
-  'guide' : 'usher'
-}
+  'guide' : 'usher',
+};
 const synonymTable = {};
 
 let antonyms = {
@@ -20,8 +20,8 @@ let antonyms = {
   'wrath' : 'delight',
   'diligent' : 'idle',
   'guide' : 'follow',
-  'flow' : 'jam'
-}
+  'flow' : 'jam',
+};
 const antonymTable = {};
 
 
