@@ -36,7 +36,7 @@ Object.keys(antonyms).forEach(function(key) {
 });
 
 console.log(synonymTable);
-console.log(synonymTable[3148863]['fond']);
+console.log(synonymTable[3148863]);
 console.log(antonymTable);
 
 
